@@ -16,6 +16,9 @@ npm run dev      # http://localhost:5173
 
 배포용 파일은 `npm run build` → `dist/` 폴더에 만들어집니다. 정적 파일이라 어디에 올려도 됩니다.
 
+`main`에 올라가면 GitHub Actions가 자동으로 빌드해서 GitHub Pages에 배포합니다 (`.github/workflows/deploy-pages.yml`).
+처음 한 번은 저장소 **Settings → Pages → Source**를 **GitHub Actions**로 바꿔야 합니다.
+
 ## 쓰는 법
 
 | 화면 | 할 수 있는 일 |
